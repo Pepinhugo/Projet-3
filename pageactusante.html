@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<title>Journal</title>
+</head>
+<body><!--Contenu de la page-->
+
+	<header><!--Début haut de page-->
+
+		<figure id="lgj"><!--Logo du Journal-->
+			<img src="img/logojournal.png" id="logo">
+		</figure>
+
+		<h1>La Team Covid</h1><!--Titre du Journal-->
+
+
+		<nav class="navbar navbar-expand-lg navbar-light couleur"><!--Début de la nav toggle-->
+
+		  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		    	<span class="navbar-toggler-icon">
+		    		<hr>
+		    	</span>
+			</button>
+
+			  	<div class="collapse navbar-collapse" id="navbarNav">
+
+			    	<ul class="navbar-nav">
+
+				      <li class="nav-item active">
+				        <a class="nav-link" href="index.html">Accueil /<span class="sr-only">(current)</span></a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="pageactusport.html">L'actu Sport /</a>
+				      </li>
+
+			    	</ul>
+
+			  	</div>
+
+			  	<button><label for="tri1">Flitre/Tri</label><!--Bouton Filtre-->
+				<input type="select" min="1" max="4" id="tri1"></button>
+
+		</nav><!--Fin de la nav toggle-->
+
+
+	</header><!--Fin du haut de la page-->
+
+
+	<main><!--Contenu de la page de la Catégorie 1-->
+
+
+		<h1>L'Actu Santé</h1>
+
+			<section id="catégorie1"><a href="pageactusante.html"><!--Categorie 1-->
+
+				<div class="slideshow" id="slider1"><!--Slider 1-->
+
+					<ol><!--les Articles de la Catégorie 1-->
+
+						<li><a href="pageactusante.html"><article id="cat1art1"><!--Article 1 Catégorie 1-->
+
+							<figure>
+								<img src="img/vaccination.jpg" id="vacc">
+							</figure>
+
+							<h3>Coronavirus: Près de 23.000 nouveaux cas en 24 heures et 356 nouveaux décès.</h3>
+							<p>PANDEMIE: Ce vendredi, 1.823 nouveaux de malades du Covid-19 ont été pris en charge à l'hôpital sur tout le territoire.</p>
+
+							<button><a href="pagearticle.html" title="article 1 en entier">En savoir plus</a></button><!-- Bouton en savoir plus qui mène sur la page de l'article 1-->
+
+							<!--Boutons partage-->
+							<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+							<div id="fb-root"></div>
+							<script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v9.0" nonce="7qeE3pN8"></script>
+							<div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Partager</a></div>
+							<!--Fin des Boutons partage-->
+							
+						</article></a></li>
+
+
+						<li><a href="pageactusante.html"><article id="cat1art2"><!--Article 2 Catégorie 1-->
+
+							<figure>
+								<img src="img/Castex.jpg" id="castex">
+							</figure>
+
+							<h3>Coronavirus: Jean Castex annonce de nouvelles restrictions pour éviter un nouveau confinement.</h3>
+
+							<p>PANDEMIE: Revivez en direct avec nous l'annonce de nouvelles mesures contre l'épidémie de coronavirus en France.</p>
+
+							<button><a>En savoir plus</a></button>
+
+							<!--Boutons partage-->
+							<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+							<div id="fb-root"></div>
+							<script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v9.0" nonce="7qeE3pN8"></script>
+							<div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Partager</a></div>
+							<!--Fin des Boutons partage-->
+
+						</article></a></li>
+
+						<li><a href="pageactusante.html"><article id="cat1art3"><!--Article 3 Catégorie 1-->
+
+							<figure>
+								<img src="img/hospital.jpg" id="hospital">
+							</figure>
+
+							<h3>Coronavirus: L’AP-HP se prépare dans la perspective du déclenchement du « plan blanc ».</h3>
+
+							<p>EPIDEMIE Soit le recours massif aux heures supplémentaires, les congés décalés et des aides pour les gardes d'enfant des personnels.</p>
+
+							<button><a>En savoir plus</a></button>
+
+							<!--Boutons partage-->
+							<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+							<div id="fb-root"></div>
+							<script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v9.0" nonce="7qeE3pN8"></script>
+							<div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Partager</a></div>
+							<!--Fin des Boutons partage-->
+
+						</article></a></li>
+
+					</ol><!--Fin des Articles de la Catégorie 1-->
+
+				</div><!-- Fin du Slider 1-->	
+
+			</a></section><!-- Fin de la  Categorie 1-->
+		
+	</main><!--Fin du Contenu de la page de la Catégorie 1-->		
+
+	<footer><!--Début du pied de page-->
+		 <p class="author-description" id="pfooter"><strong><small>By &copy; Pépin Hugo 2021</small></strong></p>
+	</footer><!--Fin du pied de page-->
+
+	<!--****************Js pour le Slider 1****************-->
+
+	<!---<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+	 
+		<script type="text/javascript">
+		   $(function(){
+		      setInterval(function(){
+		         $(".slideshow1 ul").animate({marginLeft:-800},800,function(){
+		            $(this).css({marginLeft:0}).find("li:last").after($(this).find("li:first"));
+		         })
+		      }, 3500);
+		   });
+
+		</script>--->   
+
+</body><!--Fin du Contenu de la page-->
+</html>
